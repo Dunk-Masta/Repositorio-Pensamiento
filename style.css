@@ -1,0 +1,133 @@
+/* Paleta de colores IBERO */
+:root {
+    --ibero-red: #A31B24; /* Rojo Institucional */
+    --ibero-black: #1A1A1A;
+    --ibero-gray: #F4F4F4;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--ibero-gray);
+    color: var(--ibero-black);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: var(--ibero-red);
+    color: var(--white);
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 5px solid var(--ibero-black);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Grid de Tareas */
+.grid-tareas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+/* Cards */
+.card {
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 4px solid var(--ibero-red);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    color: var(--ibero-red);
+    margin-bottom: 10px;
+}
+
+.detalles {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+}
+
+.detalles h4 {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.detalles ul {
+    list-style: inside square;
+    margin-bottom: 10px;
+}
+
+/* Botones */
+.media-links {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--ibero-red);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: background 0.3s;
+}
+
+.btn.secondary {
+    background-color: var(--ibero-black);
+}
+
+.btn:hover {
+    filter: brightness(1.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px;
+    background: var(--ibero-black);
+    color: var(--white);
+    font-size: 0.9rem;
+}
