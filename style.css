@@ -138,8 +138,5 @@ footer {
     transform: scale(1.05);
     transition: 0.6s;
     max-width: 100%;
-    height: auto;
-    display: block;
-    display: grid;
 }
 
