@@ -136,8 +136,8 @@ footer {
 
 .gallery img:hover {
     transform: scale(1.05);
-    transition: 0.3s;
-    max-width: 100%;
+    transition: 0.6s;
+    max-width: 80%;
     height: auto;
     display: block;
     display: grid;
