@@ -140,9 +140,6 @@ footer {
     max-width: 100%;
     height: auto;
     display: block;
-}
-
-.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
