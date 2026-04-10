@@ -148,5 +148,8 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
     margin-top: 1rem;
+    height: auto;
+    display: block;
+    display: grid;
 }
 
