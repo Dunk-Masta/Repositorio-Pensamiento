@@ -146,16 +146,3 @@ footer {
     object-fit: cover;    
     border-radius: 8px;
 }
-
-.container {
-    width: 90%;
-    max-width: 1000px;  
-    margin: auto;
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
